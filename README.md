@@ -23,7 +23,7 @@
         }
     ```
 - Get todos by id
-  - GET: /todo/2
+  - GET: /todo/7
     ```json
         {
             "id": 7,
