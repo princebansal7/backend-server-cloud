@@ -31,23 +31,8 @@ function generateTodos() {
 
 app.get("/", (req, res) => {
     res.send(`
-        <div style="
-            display: flex; 
-            justify-content: center; 
-            align-items: center; 
-            height: 100vh; 
-            background-color: #1c1c1c; 
-        ">
-            <h1 style="
-                color: #9dbad5; 
-                font-size: 2.5rem; 
-                text-shadow: 0 0 5px rgba(157, 186, 213, 0.5);
-                font-family: 'Helvetica Neue', Arial, sans-serif;
-                margin: 0;
-                padding: 0;
-            ">
-                Welcome to Prince Bansal's Server!
-            </h1>
+        <div style="display: flex; justify-content: center; align-items: center; height: 100vh;">
+            <h1>Welcome to Prince Bansal's Server!</h1>
         </div>
     `);
 });
