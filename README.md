@@ -52,7 +52,9 @@
 
 ## Reverse proxy using nginx and Certificate management
 
-- **NGINX**: NGINX is open-source software for web serving, reverse proxying, caching, load balancing, media streaming, and more. It can function as a proxy server for email (IMAP, POP3, and SMTP) and a reverse proxy and load balancer for HTTP, TCP, and UDP servers.
+- **NGINX**
+  
+    nginx is open-source software for web serving, reverse proxying, caching, load balancing, media streaming, and more. It can function as a proxy server for email (IMAP, POP3, and SMTP) and a reverse proxy and load balancer for HTTP, TCP, and UDP servers.
 
 - For this, you need to have a domain. Add an `A record` in your DNS with the AWS machine IP and the corresponding subdomains.
 
@@ -112,7 +114,8 @@
     sudo nginx -s reload
     ```
 
-- For free certificate management for `https`, check [Certbot](https://certbot.eff.org/instructions?ws=nginx&os=snap):
+
+- For free **Certificate Management** for `https`, check [Certbot](https://certbot.eff.org/instructions?ws=nginx&os=snap):
   - Select software as `nginx` and system as `VM` machine type (`Ubuntu` or `Linux`).
   - Follow steps and execute commands. It will automatically add public-private cert keys in the NGINX conf file.
 
