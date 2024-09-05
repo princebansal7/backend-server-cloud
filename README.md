@@ -1,7 +1,6 @@
 # backend-server-cloud
 
-### Endpoints
-
+**Endpoints:**
 - Get random todos (min:1, max:20)
   - GET: /todos
     ```json
