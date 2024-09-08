@@ -123,5 +123,3 @@
     ```bash
     pm2 start index.js
     ```
-
-vddv
